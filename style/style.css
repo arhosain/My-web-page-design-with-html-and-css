@@ -126,3 +126,49 @@ main {
   font-size: 18px;
   color: #757575;
 }
+
+/* summary section */
+
+.summary-container{
+  display: flex;
+  gap: 20px;
+/* columns: 2; */
+color:#474747;
+}
+.smummary-title >h3{
+  font-size: 35px ;
+  text-align: center;
+  margin-bottom:113px ;
+}
+.summary-box >h3{
+  font-size: 30px;
+  color: #474747;
+}
+.summary-box >h4{
+  font-size: 25px;
+  color: #474747;
+}
+.summary-box >h5{
+  font-size: 20px;
+  color: #757575;
+}
+.summary-box >p{
+  font-size: 16px;
+  color: #757575;
+}
+.btn-4{
+  
+}
+
+
+.footer{
+  background-color:#FFF8F3 ;
+  display: flex;
+  gap:117px ;
+}
+.contact >h3{
+  font-size: 35px;
+}
+.contact >p{
+  font-size: 16px;
+}
