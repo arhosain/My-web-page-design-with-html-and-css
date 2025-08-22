@@ -157,6 +157,9 @@ color:#474747;
   color: #757575;
 }
 .btn-4{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
   
 }
 
@@ -166,9 +169,31 @@ color:#474747;
   display: flex;
   gap:117px ;
 }
+.contact{
+  margin-left: 370px
+}
+
 .contact >h3{
   font-size: 35px;
+
 }
 .contact >p{
   font-size: 16px;
+  color: #474747;
+}
+.form-title > h3{
+  font-size: 35px ;
+
+}
+.form-input{
+  font-size:16px ;
+  padding: 16px 30px ;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-right: 200px;
+  
+}
+.line{
+  color: #fd6e0a;
 }
