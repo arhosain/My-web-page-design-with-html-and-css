@@ -195,6 +195,52 @@ color:#474747;
   margin-right: 200px;
   
 }
-.line{
-  color: #fd6e0a;
+
+
+/* for small device */
+
+@media screen and (max-width:576px) {
+
+.whatido-sections{
+  flex-direction: column;
+  
+}
+.summary-container{
+  flex-direction: column;
+  
+}
+.footer{
+  flex-direction: column;
+  gap:0px ;
+  
+}
+
+.form-input {
+  
+  padding: 16px 20px ;
+  width: calc(100% - 40px);
+}
+.about-all{
+  padding: 20px; 
+}
+.about-items {
+  flex-direction: column;
+  /* justify-content: space-around; */
+
+  /* margin: 100px 400px; */
+  font-size: 20px;
+}
+
+.contact{
+  flex-direction: column;
+  /* justify-content: center; */
+  margin-left: 0px
+  /* max-width: 330px; */
+}
+/* .form-inputs{
+  
+ width: calc(100% - 60px);
+ 
+} */
+   
 }
