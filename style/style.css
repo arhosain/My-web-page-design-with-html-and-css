@@ -201,6 +201,42 @@ color:#474747;
 
 @media screen and (max-width:576px) {
 
+  nav ul {
+ flex-direction: column;
+  
+}
+nav {
+  flex-direction: column;
+  margin: 0px 10px 10px 10px;
+}
+nav >h2{
+  margin-bottom: 10px;
+}
+.btn-1{
+  margin-top: 10px;
+}
+
+  .banner{
+    flex-direction: column;
+    background-image: none;
+    margin: 0px 0px 0px 5px;
+  }
+  .btn-2 {
+    margin-bottom: 10px;
+  }
+   .banner >img{
+    width: 100%;
+  }
+.content {
+  margin:10px;
+}
+
+main {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+
 .whatido-sections{
   flex-direction: column;
   
@@ -234,13 +270,15 @@ color:#474747;
 .contact{
   flex-direction: column;
   /* justify-content: center; */
-  margin-left: 0px
+  margin-left: 0px;
   /* max-width: 330px; */
 }
-/* .form-inputs{
+
+.form-input{
   
- width: calc(100% - 60px);
- 
-} */
-   
+  margin-right: 0px;
+  
 }
+
+
+/* tab screen media query */
